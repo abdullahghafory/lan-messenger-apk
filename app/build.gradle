@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.lanmessenger.apk'; compileSdk 35
+    defaultConfig { applicationId 'com.lanmessenger.apk'; minSdk 23; targetSdk 35; versionCode 3; versionName '1.2-native-voice' }
+}
